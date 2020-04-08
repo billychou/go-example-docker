@@ -4,4 +4,4 @@ COPY . .
 
 RUN go build -mod=vendor main.go
 
-CMD ["./main"]
+ENTRYPOINT ["main"]
